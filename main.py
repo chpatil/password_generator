@@ -21,3 +21,8 @@ for i in range(0,nr_numbers):
 print (pass_easy)
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+pass_hard=""
+pass_easy=list(pass_easy)
+random.shuffle(pass_easy)
+pass_easy=''.join(pass_easy)
+print (pass_easy)
